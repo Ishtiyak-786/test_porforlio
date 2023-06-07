@@ -104,8 +104,9 @@ body {
     color: #121e8a;
     
 }
-#address{
+#location_full .text{
     font-size: 0.9em;
+    color: #89e78c;
 }
 #linkedin_link .text{
     color: #051876;
@@ -223,7 +224,10 @@ a:hover{
     font-size: 1.2em;
 }
 
-.summary_title p{
+/* .summary_title p{
+    color: #28282B;
+} */
+.para{
     color: #0e1215;
 }
 
@@ -306,4 +310,21 @@ a:hover{
 .interest_title{
     padding: 0.5em 0.5em;
     margin-top: 1.7em;
+}
+
+.print-button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    top:30px;
+    right:50px;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
 }
