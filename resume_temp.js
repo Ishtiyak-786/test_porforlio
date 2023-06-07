@@ -5,31 +5,31 @@
 // }
 
 function changeBackgroundColor() {
-    var container = document.querySelector('.left_side');
-    container.style.backgroundColor = '#6F8FAF';
-  }
+  var container = document.querySelector('.left_side');
+  container.style.backgroundColor = '#6F8FAF';
+}
 
-  // Event listener to call the changeBackgroundColor function when the document is loaded
-  document.addEventListener('DOMContentLoaded', function() {
-    changeBackgroundColor();
-  });
+// Event listener to call the changeBackgroundColor function when the document is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  changeBackgroundColor();
+});
 
-  
+
 //   function printDocument() {
 //     // Create a new window or tab for printing
 //     var printWindow = window.open('', '_blank');
-    
+  
 //     // Get the document content
 //     var documentContent = document.documentElement.container.innerHTML;
-    
+  
 //     // Modify the document content to remove the print button
 //     documentContent = documentContent.replace('<button class="print-button" onclick="printDocument()">Print/Download</button>', '');
-    
+  
 //     // Update the document in the new window/tab
 //     printWindow.document.open();
 //     printWindow.document.write(documentContent);
 //     printWindow.document.close();
-    
+  
 //     // Call the print function of the new window/tab
 //     printWindow.print();
 // }
